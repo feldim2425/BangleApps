@@ -546,6 +546,23 @@
       {"wildcard":".heart?","storageFile": true}
     ]
   },
+  { "id": "heartplus",
+    "name": "Heart Rate Recorder+",
+    "icon": "app.png",
+    "version":"0.05",
+    "interface": "interface.html",
+    "description": "Application that allows you to record your heart rate and shows it in the widget. Can run in background",
+    "tags": "tool,health,widget",
+    "storage": [
+      {"name":"heartplus.app.js","url":"app.js"},
+      {"name":"heartplus.img","url":"app-icon.js","evaluate":true},
+      {"name":"heartplus.wid.js","url":"widget.js"}
+    ],
+    "data": [
+      {"name":"heartplus.json"},
+      {"wildcard":".heart?","storageFile": true}
+    ]
+  },
   { "id": "slevel",
     "name": "Spirit Level",
     "icon": "spiritlevel.png",
